@@ -125,6 +125,16 @@ button:hover {
 
 .attribution a {
 	color: hsl(228, 45%, 44%);
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.attribution a:hover {
+	background-color: rgba(229, 239, 245, 0.7);
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding: 0.5em;
 }
 
 /* Large Screens */
