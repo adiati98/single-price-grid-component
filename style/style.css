@@ -54,12 +54,6 @@ header {
 	font-size: 1.2em;
 }
 
-.bigger {
-	font-size: 1.2em;
-	font-weight: 700;
-	padding-bottom: 10px;
-}
-
 .price {
 	font-size: 2em;
 	font-weight: 700;
@@ -165,7 +159,7 @@ button:hover {
 		padding: 4em;
 	}
 
-	.bigger {
+	.why {
 		padding-top: 10px;
 	}
 
@@ -175,7 +169,19 @@ button:hover {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
+	.why {
+		padding-top: 0.5em;
+	}
+
+	.reason {
+		font-size: 1.2em;
+		line-height: 1.5;
+		padding-top: 1em;
+	}
+}
+
+@media (min-width: 1200px) {
 	header {
 		font-size: 1.3em;
 	}
@@ -192,7 +198,7 @@ button:hover {
 	}
 
 	.column-2 {
-		font-size: 1.3em;
+		font-size: 1.1em;
 		padding: 5em 0 0 5em;
 	}
 }
